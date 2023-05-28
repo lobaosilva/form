@@ -25,4 +25,8 @@ function sendEmail() {
             throw new Error("Erro ao enviar email.");
         }
     });
+
 }
+
+// Adicione esse código após a função sendEmail()
+document.getElementById("btnEnviar").addEventListener("click", sendEmail);
